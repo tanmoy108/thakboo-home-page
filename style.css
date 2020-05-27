@@ -1,0 +1,545 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.63)) ,url(bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.box
+{
+    height: 10vh;
+    background-color: #313231c9;
+}
+.header
+{
+    width: 70vw;
+    padding: 0;
+    margin: 0 auto;
+    height: 100%;
+}
+.header ul
+{
+    float: right;
+}
+ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 2.5vh;
+}
+ul li a
+{
+    text-decoration: none;
+    color: rgb(167, 164, 164);
+}
+ul li a:hover
+{
+    color: white;
+}
+strong
+{
+    color: white;
+    padding: 0;
+    margin-top: 2.5vh;
+    float: left;
+    font-size: 20px;
+}
+.box2
+{
+    height: 11vh;
+    background-color: #4649478e;
+    margin-top: 40px;
+}
+.menu
+{
+    width: 70vw;
+    padding: 0;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.box2 .menu a
+{
+    text-decoration: none;
+}
+.box2 .menu p
+{
+    color: white;
+    font-size: small;
+    font-weight: 500;
+}
+.form
+{
+    width: 70vw;
+    height: 60%;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3
+{
+    width: 480px;
+    height: 80%;
+    padding: 0;
+    margin: 0 auto;
+}
+.box3 input[type= "text"]
+{
+    width: 467px;
+    height: 55px;
+    color: black;
+    font-size: 15px;
+    margin: 3px 3px;
+}
+.box3 input[type= "button"]
+{
+    width: 250px;
+    height: 55px;
+    color: white;
+    background-color: #2ab42a;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+.box3 input[type= "button"]:hover
+{
+    opacity: 0.9;
+}
+.box4
+{
+    padding:0;
+    margin: 0 auto;
+    width: 70vw;
+    height: 134vh;
+    margin-top: 40px;
+}
+.paragraph
+{
+    width: 70vw;
+    height: 30px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph p
+{
+    font-weight: 7r00;
+    font-size: 25px;
+    color: black;
+    padding:0;
+    margin: 0;
+}
+.div1
+{
+    width: 100%;
+    height: 250px;
+
+}
+.div1left
+{
+    background-image: url(ctg.jpg);
+    background-size: cover;
+    width: 34.5vw;
+    height: 100%;
+    float: left;
+    border: 3px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s ease;
+}
+.div1left:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.281)) ,url(ctg.jpg);
+}
+.div1right
+{
+    background-image: url(sylhet.jpg);
+    background-size: cover;
+    width: 34.5vw;
+    border: 3px solid white;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1right:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.281)) ,url(sylhet.jpg);
+}
+.div2
+{
+    width: 100%;
+    height: 250px;
+}
+.div2left
+{
+    background-image: url(rangamati.jpg);
+    background-size: cover;
+    width: 22.8vw;
+    height: 100%;
+    float: left;
+    border: 3px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s ease;
+}
+.div2left:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.281)) ,url(rangamati.jpg);
+}
+.div2mid
+{
+    background-image: url(kua.jpg);
+    background-size: cover;
+    width: 22.9vw;
+    height: 100%;
+    float: left;
+    border: 3px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s ease;
+}
+.div2mid:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.281)) ,url(kua.jpg);
+}
+.div2right
+{
+    background-image: url(dhaka.jpg);
+    background-size: cover;
+    width: 22.9vw;
+    border: 3px solid white;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s ease;
+}
+.div2right:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.281)) ,url(dhaka.jpg);
+}
+.div3
+{
+    background-image: url(cox.jpg);
+    background-size: cover;
+    width: 59%;
+    height: 320px;
+    float: left;
+    border: 3px solid white;    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s ease;
+}
+.div3:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.281)) ,url(cox.jpg);
+}
+.div4
+{
+    width: 39.7%;
+    height: 320px;
+    float: right;
+    border: 3px solid white;
+
+}
+.div4top
+{
+    background-image: url(saint_martin.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 158px;
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s ease;
+}
+.div4top:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.281)) ,url(saint_martin.jpg);
+}
+.div4down
+{
+    background-image: url(sajek.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s ease;
+}
+.div4down:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.281)) ,url(sajek.jpg);
+}
+.text h2,h4
+{
+    padding:0;
+    margin: 0;
+    font-weight: 400;
+    text-shadow: 2px 2px #000000;
+}
+.box4 .text
+{
+    color: white;
+    text-align: center;
+}
+.box5
+{
+    width: 70vw;
+    height: 30vh;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+}
+.box5 a
+{
+    text-decoration: none;
+    background-color:  #2ab42a;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box5 a:hover
+{
+    opacity: 0.9;
+}
+.box5 p
+{
+    font-size: 25px;
+    font-weight: 500;
+    padding:0;
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer
+{
+    height: 100vh;
+    background-color: #2a333a;
+}
+.box6
+{
+    width: 70vw;
+    height: 90vh;
+    padding: 0;
+    margin: 0 auto;
+}
+.box6 .div1
+{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.box6 .div2
+{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    margin-top: 20px;
+}
+.box6 .div2 p
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box6 .div2 input[type= text ]
+{
+    font-size: 17px;
+    padding-left: 10px;
+    width: 315px;
+    height: 40px;
+    position: absolute;
+    top: 60%;
+    left: 41.6%;
+    transform: translate(-50%,-50%);
+}
+.box6 .div2 input[type= button ]
+{
+    padding: 10px 20px;
+    width: 160px;
+    height: 44px;
+    background-color: #2ab42a;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 60%;
+    left: 67%;
+    transform: translate(-50%,-50%);
+}
+.box6 .div2 input[type= button ]:hover
+{
+    opacity: 0.9;
+}
+.footer .box6 .link
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 313px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.box6 .link .link1
+{
+    width: 250px;
+    height: 100%;
+}
+.box6 .link .link2
+{
+    width: 250px;
+    height: 100%;
+}
+.box6 .link .link3
+{
+    width: 250px;
+    height: 100%;
+}
+.box6 .link .link4
+{
+    width: 250px;
+    height: 100%;
+}
+.box6 .link .link1 ul
+{
+    list-style-type: none;
+}
+.link1 li
+{
+    text-decoration: none;
+    display: block;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.link1 li a
+{
+    color: white;
+    font-weight: 500;
+}
+.link1 li a:hover
+{
+    text-decoration: underline;
+}
+.box6 .link .link2 ul
+{
+    list-style-type: none;
+}
+.link2 li
+{
+    text-decoration: none;
+    display: block;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.link2 li a
+{
+    color: white;
+    font-weight: 500;
+}
+.link2 li a:hover
+{
+    text-decoration: underline;
+}
+.box6 .link .link3 ul
+{
+    list-style-type: none;
+}
+.link3 li
+{
+    text-decoration: none;
+    display: block;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.link3 li a
+{
+    color: white;
+    font-weight: 500;
+}
+.link3 li a:hover
+{
+    text-decoration: underline;
+}
+.link4 p
+{
+    color: white;
+    margin-top: 15px;
+    margin-left: 30%;
+    font-weight: 500;
+}
+.link4 img
+{
+    margin: 40px 15px;
+}
+.footer .box7
+{
+    background-color: #37464d;
+    height: 80px;
+    position: relative;
+}
+.box7 strong
+{
+    color: white;
+    font-size: 23px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box7 p
+{
+    color: white;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
